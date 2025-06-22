@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Scott Solik - Motor Vehicles Registrations 2000 &ndash; 2023</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			ul.a {
+				list-style-type: circle;
+				margin-bottom: .25em;
+			}
+
+			ul.b {
+  				list-style-type: square;
+				margin-bottom: .25em;
+			}
+
+			ul.c {
+  				margin-top: .25em;
+			}
+
+			ul.d {
+				list-style: disc;
+				margin: 0 0 2em 0;
+				padding-left: 1em;
+			}
+
+			figcaption.a {
+				font-size: 0.8em;
+				color: rgba(255, 255, 255, 0.35);
+				font-style: italic;
+			}			
+
+			img {
+ 				border: 10px solid #FFFF;
+			}
+
+			img.a {
+ 				vertical-align: baseline;
+			}
+			
+			img.b {
+ 				vertical-align: text-top;
+			}			
+
+			img.c {
+ 				vertical-align: text-bottom;
+			}			
+			
+			a.a {
+				-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+				-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+				-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+				transition: color 0.2s ease, border-bottom-color 0.2s ease;
+				border-bottom: 0;
+				color: inherit;
+				text-decoration: none;
+			}
+
+			span.a {
+				padding-top: 15px;
+			}
+
+			span.b {
+				padding-bottom: 50px;
+			}
+
+			#header > nav > ul > li a.b {
+				border: 0;
+				color: rgba(255, 255, 255, 0.75);
+				display: inline-block;
+				font-size: 0.6em;
+				font-weight: bold;
+				letter-spacing: 0.25em;
+				text-transform: uppercase;
+			}
+
+			#header > nav > ul > li a.b:hover {
+				color: #ffffff;
+			}
+
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Scott Solik Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="b">Home</a></li>
+						<li><a href="index.html#three" class="b">Contact Me</a></li>
+						<!-- <li><a href="elements.html">Elements</a></li> -->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Motor Vehicle Registrations</h1>						
+							<p>This project analyzed motor vehicle registrations data to uncover trends and insights to inform policy decisions and improve transportation planning. The analysis included data preprocessing, exploratory data analysis (EDA), and visualization of key metrics such as registration trends over time, economic drivers, and regional variations.</p>
+
+							<iframe src="https://nbviewer.org/github/ssolik/motor_vehicle_registrations/blob/main/motor_vehicle_registrations.ipynb?flush_cache=true" style="width: 100%" height="800"></iframe>
+							
+							<br>
+							<h2>Key Findings</h2>
+								<ul>
+									<li>Motor vehicle registrations have shown a steady increase over the years, with notable spikes during economic recovery periods.</li>
+									<li>U.S. motorization is mature; total growth now comes more from population than from additional vehicles per household.</li>
+									<li>Regional variations in registration trends highlight the impact of local economic conditions and population growth.</li>
+									<li>State-level divergence persists: sparse, rural states continue to build oversized fleets relative to population, while coastal metros stay flat.</li>
+									<li>Correlation analysis indicates a weak negative correlation between per-capita income and vehicle registrations, suggesting that economic factors may play a counterintuitive role in vehicle ownership.
+									</li>
+								</ul>
+							<h3>National Growth</h3>
+								<ul>
+									<li>Raw registrations rose every year from 2000 through 2023.</li>
+									<li>Average annual growth ≈ 1.8 million vehicles; 2023 closed at a little over 286 million registrations. 
+									</li>
+								</ul>
+							<h3>Registration Trends</h3>
+								<ul>																												<li>Per-capita registrations have been essentially flat since 2013, with a slight dip in 2020 likely due to the pandemic.</li>
+									<li>2023 registrations are at 860 vehicles per 1,000 residents, which is roughly equivalent to the 2010 level.</li>
+									<li>Registrations peaked in 2013 at 880 vehicles per 1,000 residents.</li>
+								</ul>
+							<h3>State Comparisons: Registrations per 1000 Residents</h3>
+								<ul>
+									<li>Upper-Midwest states (Montana, Wyoming, North Dakota, South Dakota) top the chart, all exceeding 1,100 vehicles per 1,000 residents—i.e., more vehicles than people.</li>
+									<li>The lowest rates cluster on the coasts and New York (≈ 540).</li>
+									<li>Pennsylvania growth has been essentially flat and registration rate has been consistently roughly equivelent to the national average.</li>
+									<li>Florida and California have flattened after significant declines between 2010 and 2013.</li>
+								</ul>
+							<h2 id="project">Project Technical Details</h2>
+							<h3>Tech Stack & Methodology</h3>
+								<ul>
+									<li><b>Python:</b>
+										<ul class="a">
+											<li>Exploratory Data Analysis (EDA)</li>
+											<li>Data Visualization</li>
+											<li>Statistical Analysis</li>
+										</ul>
+									</li>
+
+									<li><b>Pandas:</b>
+										<ul class="a">
+											<li>Data Manipulation</li>
+											<li>Data Cleaning</li>
+											<li>Data Aggregation</li>
+										</ul>
+									</li>
+									<li><b>Matplotlib & Seaborn:</b>
+										<ul class="a">
+											<li>Data Visualization</li>
+											<li>Graphical Representation of Trends</li>
+										</ul>
+									</li>
+									<li><b>Jupyter Notebook:</b>
+										<ul class="a">
+											<li>Interactive Data Analysis</li>
+											<li>Documentation of Analysis Steps</li>
+										</ul>
+									</li>
+<!-- 									<li><b>GitHub:</b>
+										<ul class="a">
+											<li>Version Control</li>
+											<li>Project Collaboration</li>
+											<li>Code Sharing</li>
+										</ul>
+									</li> -->
+								</ul>
+							<h3>Dataset</h3>
+								<ul class="">
+									<li>The project utilized the following CSV files:
+										<ul class="a">
+											<li>Annual Motor Vehicle Registration Data (Motor_Vehicle_Registrations_2000-2023_MV-1.csv)</li>
+											<li>Annual State Resident Population Data (historical_state_population_by_year.csv)</li>
+											<li>Annual Per-Capita Personal Income by State (SASUMMARY__ALL_AREAS_1998_2024.csv)</li>
+										</ul>
+									</li>
+								</ul>
+<!-- 							<h3>Technical Process</h3>
+								<p>The project utilized Python libraries such as Pandas, Matplotlib, and Seaborn for data manipulation and visualization. The final report includes detailed visualizations and interpretations of the data, providing insights for stakeholders.</p> -->
+							
+<!-- 							<h3>Project Files</h3>
+								<ul>
+									<li>The SQL script can be viewed here: <a href="https://github.com/ssolik/Everdoor_Emporium/blob/main/Everdoor_Emporium.sql" target="_blank">SQL Script</a></li>
+									<li>The Issue Log from the data cleaning process can be viewed here: <a href="https://github.com/ssolik/Everdoor_Emporium/blob/main/Everdoor-Emporium_Data-Cleaning_Issue-Log.xlsx" target="_blank">Issue Log</a></li>
+									<li>The original (raw) data files can be viewed here: <a href="https://github.com/ssolik/Everdoor_Emporium/tree/main/Data/RAW" target="_blank">Raw CSV Files</a></li>
+									<li>The cleaned data files can be viewed here: <a href="https://github.com/ssolik/Everdoor_Emporium/tree/main/Data/Cleaned" target="_blank">Cleaned CSV Files</a></li>
+								</ul> -->
+
+
+									
+						
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; 2025 Scott Solik. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
